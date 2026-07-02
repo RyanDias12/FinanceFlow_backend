@@ -1,0 +1,4 @@
+rodar server
+
+python backend/run.py
+
