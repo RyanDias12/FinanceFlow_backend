@@ -1,4 +1,4 @@
-from app import app
+from backend.app import app
 from flask import request, jsonify
 
 from models.transacao_model import Transacao_model
