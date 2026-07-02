@@ -2,7 +2,7 @@ from backend.app import app
 from flask import request, jsonify
 
 
-from database.db.usuarios.usuarios_db import buscar_usuario, buscar_email, salvar_usuario
+from backend.database.db.usuarios.usuarios_db import buscar_usuario, buscar_email, salvar_usuario
 
 
 @app.route("/login", methods=["POST"])
