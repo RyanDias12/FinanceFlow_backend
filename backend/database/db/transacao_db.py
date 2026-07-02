@@ -1,4 +1,4 @@
-from database.connection import conectar
+from backend.database.connection import conectar
 
 def salvar_transacao(transacao):
 

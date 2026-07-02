@@ -1,8 +1,8 @@
 from backend.app import app
 from flask import request, jsonify
 
-from models.transacao_model import Transacao_model
-from database.db.transacao_db import salvar_transacao
+from backend.models.transacao_model import Transacao_model
+from backend.database.db.transacao_db import salvar_transacao
 
 @app.route("/novaTransacao", methods=["POST"])
 def nova_transacao():
