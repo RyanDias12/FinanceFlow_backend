@@ -1,4 +1,22 @@
-rodar server
+------------------ Ambiente de desenvolvimento -------------------
 
-python backend/run.py
+    (Rodar servidor)
 
+python run.py
+
+
+----------------------- Produção ---------------------------------
+
+    (executar no terminal pythonanywhere)
+
+git pull
+tail -50 /var/log/ryandias123.pythonanywhere.com.error.log
+
+    (Vs code para o GitHub)
+
+git status   
+git add .
+git commit -m "descrição do commit"
+git push
+
+---------------------------------------------------------------------

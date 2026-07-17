@@ -1,7 +1,6 @@
 from flask import Blueprint, request, jsonify
 from backend.database.db.usuarios.usuarios_db import buscar_usuario, buscar_email, salvar_usuario
 
-# Cria o Blueprint em vez de usar o @app diretamente
 usuarios_blueprint = Blueprint('usuarios', __name__)
 
 @usuarios_blueprint.route("/login", methods=["POST"])
